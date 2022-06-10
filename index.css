@@ -115,7 +115,7 @@ h1 {
 
 @media (max-width: 560px) {
     .dados h2 {
-        top: 48rem;
+        top: 44rem;
      margin: auto;
     }
     .dados {
@@ -124,6 +124,10 @@ h1 {
          
         display: flex;
        
+    }
+
+    #btns {
+        margin-top: 15rem;
     }
 
     

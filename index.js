@@ -31,7 +31,7 @@ const totalDeValores = numeroDoDado.length
 dado2.classList.remove('dadoa')
 dado1.classList.add('dadob')
 
-const numeroAleatorio = Math.floor(Math.random() * totalDeValores + 1)
+const numeroAleatorio = Math.floor(Math.random() * totalDeValores)
 
 dado1.innerHTML = numeroAleatorio
 soma.innerHTML = numeroAleatorio
@@ -49,7 +49,7 @@ dado1.classList.add('dadob')
 const totalDeValore = numeroDoDado.length
 
 
-const numeroAleatori = Math.floor(Math.random() * totalDeValore + 1)
+const numeroAleatori = Math.floor(Math.random() * totalDeValore)
 
     //dado 2
     const valorTotal = numeroDoDado.length
@@ -60,6 +60,13 @@ dado2.innerHTML = aleatorioNumero
 dado1.innerHTML = numeroAleatori
 soma.innerHTML = aleatorioNumero + numeroAleatori
 
+}
+
+function reset() {
+    dado1.classList.remove('dadob')
+    dado2.classList.remove('dadoa')
+
+    soma.innerHTML = "="
 }
 
 
